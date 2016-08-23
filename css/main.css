@@ -1,0 +1,22 @@
+
+
+
+body{
+background-color: #aaaaaa;
+}
+
+div {
+    background-color: #eeeeee;
+    width: 1000px;
+    height: 600px;
+    /*border: 2px solid green;*/
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+	 border: 1px solid black;
+	 width: 300px;
+	 text-align: center;
+}
+tr:hover {background-color: #22FF22;}
