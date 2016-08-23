@@ -31,9 +31,7 @@ if(isset($_POST['getip'])){
 	echo "<table>";
 		if(!empty($ip))
 		{
-		get_location($ip);	
-		$w= unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$ip"));
-		var_dump($w);	
+		echo get_location($ip);
 		}
 	echo "</table>";
 	?>
