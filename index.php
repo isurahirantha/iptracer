@@ -37,6 +37,6 @@ if(isset($_POST['getip'])){
 	?>
 
 </div>
-
+<!--comment-->
 </body>
 </html>
